@@ -1,0 +1,39 @@
+canvas {
+    border: 1px solid black;
+}
+#flex{
+    display:flex; 
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center; 
+}
+#flex-2{
+    /* display:flex; */
+    justify-content: space-between;
+}
+#forimage{
+    display:flex;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}form{
+    display:flex;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+
+}#circle
+{
+    color: white;
+    border: 2px solid black;
+    border-radius: 100%;
+}#square{
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+}#circle:hover,#square:hover{
+    border: 4px solid rgb(240, 139, 8);
+}#pencil:hover{
+    color: rgb(255, 0, 0);
+}
